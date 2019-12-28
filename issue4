@@ -1,1 +1,3 @@
-
+table_file = open('rishabh.html', 'w')
+table_file.write('Hello World!')
+table_file.close()
