@@ -1,1 +1,5 @@
-
+import webbrowser
+table_file = open('rishabh.html', 'w')
+table_file.write('Hello World!')
+table_file.close()
+webbrowser.open("file:///C:/Users/rishabh%20chauhan/Documents/GitHub/start.python/rishabh.html")
